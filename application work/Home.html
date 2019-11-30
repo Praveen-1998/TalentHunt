@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css"
+                href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" href="./client.css">
+        <link rel="stylesheet" href="./card.css">
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/data.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+
+</head>
+
+<body style="height: 100px;">
+
+        <div class="navbar">
+                <a href="./Home.html"><i class="fa fa-fw fa-home"></i> ENGINEERS MANAGEMENT</a>
+        </div>
+        <div class="main-section" id="card">
+                <div class="statscounts" id="counter">
+                        <div class="dashbord D1">
+                                <div class="icon-section">
+                                        <i class="fa fa-users" aria-hidden="true"></i><br>
+
+                                        <small style="font-size: 18px;">CLIENTS</small>
+                                        <div class="statwrap">
+                                                <span class="stat-count" style="font-size: 30px;">30</span>
+                                                <small>+</small>
+                                        </div>
+                                </div>
+                                <div class="detail-section">
+                                        <a href="./clientData.html">More Info </a>
+                                </div>
+                        </div>
+
+                        <div class="dashbord dashbord-green">
+                                <div class="icon-section">
+                                        <i class="fa fa-users" aria-hidden="true"></i><br>
+                                        <small style="font-size: 18px;">ENGINEERS TEAM</small>
+                                        <div class="statwrap">
+                                                <span class="stat-count" style="font-size: 30px;">80</span>
+                                                <small>+</small>
+                                        </div>
+                                </div>
+                                <div class="detail-section">
+                                        <a href="./highchart.html">More Info </a>
+                                </div>
+                        </div>
+                        <div class="dashbord dashbord-orange">
+                                <div class="icon-section">
+                                        <i class="fa fa-users" aria-hidden="true"></i><br>
+                                        <small style="font-size: 18px;">MENTORS</small>
+                                        <div class="statwrap">
+                                                <span class="stat-count " style="font-size: 30px;">20</span>
+                                                <small>+</small>
+                                        </div>
+                                </div>
+                                <div class="detail-section">
+                                        <a href="./mentor.html">More Info </a>
+                                </div>
+                        </div>
+                        <div class="dashbord dashbord-skyblue">
+                                <div class="icon-section">
+                                        <i class="fa fa-money" aria-hidden="true"></i><br>
+                                        <small style="font-size: 18px;"> BUSINESS GROWTH</small>
+                                        <div class="statwrap">
+                                                <span class="stat-count " style="font-size: 30px;"></span>
+                                                <small style="font-size: 18px;" >OF TECHELEVATE</small>
+                                        </div>
+                                </div>
+                                <div class="detail-section">
+                                        <a href="./yearlyrevenue.html">More Info </a>
+                                </div>
+                        </div>
+                </div>
+        </div>
+        <div class="row">
+
+                <!-- <div id="container" class="col-md-6">
+                        
+                        <script src="https://code.highcharts.com/highcharts.js"></script>
+                        <script src="https://code.highcharts.com/modules/data.js"></script>
+                        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+                        <script src="./highchart.js"></script>
+                </div>
+
+                <div id="mentor" class="col-md-6">
+                        <script src="https://code.highcharts.com/highcharts.js"></script>
+                        <script src="https://code.highcharts.com/modules/data.js"></script>
+                        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+                        <script src="./mentor.js"></script>
+                </div> -->
+        </div>
+        <div id="chartContainer" class="col-md-6 offset-3 mt-5">
+                <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+                <script src="./Revenue.js"></script>
+        </div>
+        <!-- <div id="praveen" class="col-md-6 offset-3 card card-body">
+                                <script src="https://www.amcharts.com/lib/4/core.js"></script>
+                                <script src="https://www.amcharts.com/lib/4/charts.js"></script>
+                                <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+                                <script src="./client.js"></script>
+                        </div> -->
+        <!-- 
+        <div id="chartdiv" class="col-md-6">
+                <script src="./client.js"></script>
+        </div> -->
+</body>
+
+</html>
